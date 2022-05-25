@@ -1,2 +1,3 @@
-#!/bin/sh
-pw
+#!/bin/bash
+DIR_PATH=$(dirname $path)
+echo $DPATH
