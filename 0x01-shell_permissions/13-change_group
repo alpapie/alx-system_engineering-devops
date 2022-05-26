@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp --reference hello school
+chgrp hello school
