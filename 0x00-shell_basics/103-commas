@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | grep -v / | sed 's/$/, /g' | xargs echo | sed 's/,$//g'
+ls -a |sort | grep -v / | sed 's/$/, /g' | xargs echo | sed 's/,$//g'
