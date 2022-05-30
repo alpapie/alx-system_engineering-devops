@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n iacta | tail -n 1
+awk 'FNR == 3' iacta
