@@ -1,2 +1,2 @@
 #!/bin/bash
- echo $PATH |sed -e $'s/:/\\\n/g'|wc -l
+echo $PATH|cut --output-delimiter=$'\n' -d":" -f 1-|wc -l
