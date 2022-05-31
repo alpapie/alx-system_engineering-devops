@@ -1,5 +1,2 @@
 #!/bin/bash
-if $username="root"
-then
-    echo "hello user"
-
+$username="root" || echo "hello user"
