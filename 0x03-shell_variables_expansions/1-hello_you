@@ -1,2 +1,5 @@
+#!/bin/bash
+if $username="root"
+then
+    echo "hello user"
 
-README.md 
